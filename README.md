@@ -2,15 +2,8 @@
 # Aerowear
 
 AeroWear is the clone of Aeropostle.com, it is  known for its trendy and affordable clothing, with a focus on casual wear such as t-shirts, hoodies, and jeans. The brand also offers a range of accessories such as bags.
-## Deployment Link :
+## Deployment Link : https://aerowear-beryl.vercel.app/
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET https://thinkable-slope-suhail3535.vercel.app/
-```
 
 | End Point| Type     | Description                |
 | :-------- | :------- | :---------------------- |
