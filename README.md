@@ -110,15 +110,6 @@ npm run deploy
 
 ### 7.Responsive Tab View
 ![cart page](https://user-images.githubusercontent.com/112754439/230758457-64438120-71c1-4079-ad75-4c876c268990.png)
-### 8. Payment Page
-<!-- ![cart](https://user-images.githubusercontent.com/110021464/222483675-eea1d198-a787-423f-92e3-b18c142ae5a6.png) -->
-![PAY](https://user-images.githubusercontent.com/112754439/230759851-0a564379-592f-4508-8ed5-e1235766fd77.png)
-### 9. Responsive Tab View
-![PAYMENT](https://user-images.githubusercontent.com/112754439/230759852-a13f74ee-1714-4bed-b17e-b103e9c95fe7.png)
-
-<!-- ![Screenshot (137)](https://user-images.githubusercontent.com/112754439/222426239-dee8cd63-3b68-4754-98c1-f4fe8a89e300.png)
-![Screenshot (138)](https://user-images.githubusercontent.com/112754439/222426322-e903ae80-1511-4bf4-bc69-ec2e602cb8ec.png)
-![Screenshot (139)](https://user-images.githubusercontent.com/112754439/222426349-a1b407d5-9ac4-423e-b235-9503142f7dc9.png) -->
 
 ### 10. Admin Page
 ![adminpannel](https://user-images.githubusercontent.com/112754439/222429357-ecd1712c-8796-4ded-83db-f9a572816f9d.png)
@@ -132,14 +123,9 @@ npm run deploy
 Clone the project
 
 ```bash
-  git clone https://github.com/suhail3535/thinkable-slope-4107.git
+  git clone https://github.com/preetuuppp/Aerowear.git
 ```
 
-Go to the project directory
-
-```bash
-  cd my-thinkable-slope-4107
-```
 
 Install dependencies
 
