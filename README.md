@@ -149,10 +149,6 @@ Start the server
 ```
 
 
-## Demo
-
-
-https://thinkable-slope-suhail3535.vercel.app/
 
 ## FAQ
 
