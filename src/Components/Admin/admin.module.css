@@ -1,0 +1,233 @@
+#container {
+    border: 1px solid rgb(122, 126, 122);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px auto;
+}
+
+#second_div {
+    border: 0px solid gray;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+#img {
+    border: 0px solid green;
+    width: "100%";
+    text-align: center;
+    border-radius: 15px;
+}
+
+#first_div {
+    border: 0px solid rgb(0, 47, 255);
+    padding: 10px 20px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 60%;
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#btn {
+    background-color: #17274a;
+    border: 2px solid transparent;
+    /* height: 60px; */
+    width: 60%;
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    margin: 20px auto;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#btn:hover {
+    background-color: white;
+    color: #17274a;
+    border: 2px solid #17274a;
+    border-radius: 15px;
+}
+#edit {
+    background-color: #17274a;
+    border: 2px solid transparent;
+    height: 35px;
+    /* align-items: center;
+    justify-content: center; */
+    /* width: 50%; */
+    display: block;
+    padding: 0px 15px;
+    color: white;
+    /* font-weight: bold; */
+    /* margin: 20px auto; */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#edit:hover {
+    background-color: white;
+    color: #17274a;
+    border: 2px solid #17274a;
+    border-radius: 15px;
+}
+#delete {
+    background-color: tomato;
+    border: 2px solid transparent;
+    height: 35px;
+    /* align-items: center;
+    justify-content: center; */
+    /* width: 50%; */
+    display: block;
+    padding: 0px 15px;
+    color: white;
+    /* font-weight: bold; */
+    /* margin: 20px auto; */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#delete:hover {
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 15px;
+}
+
+#heading {
+    border: 0px solid red;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #17274a;
+    font-family: "Visuelt Pro", sans-serif;
+}
+
+
+#card {
+    border: 0px solid green;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* edit&delete button */
+#button {
+    border: 0px solid red;
+    /* padding: 10px; */
+    display: flex;
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+    padding: 2px;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+#input {
+    border: 0px solid red;
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#editbtn {
+    width: 40%;
+    background-color: rgb(126, 162, 219);
+    margin-left: 160px;
+}
+
+
+/* <---------For Laptop  View--------> */
+@media all and (max-width: 1280px){
+    #container {
+    display: flex;
+gap: 30px;
+    padding: 10px;
+    }
+#first_div {
+    border: 1px solid rgb(80, 81, 83);
+    padding: 20px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#second_div {
+    border: 1px solid gray;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+}
+
+/* <---------For Tab  View--------> */
+@media all and (max-width: 768px){
+    #container {
+    display: block;
+
+    padding: 40px;
+    }
+#first_div {
+    border: 0px solid rgb(114, 115, 119);
+    padding: 20px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#second_div {
+    border: 0px solid gray;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+}
+
+/* <---------For Mobile View--------> */
+@media all and (max-width:500px){
+    #container {
+    display: block;
+
+    padding: 40px;
+    }
+#first_div {
+border: 1px solid gray;
+    padding: 20px;
+    gap: 10px;
+    width: 100%;
+    display: block;
+}
+#first_div :nth-child(4){
+
+    width: 100%;
+
+}
+#second_div {
+    border: 1px solid gray;
+    padding: 10px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+}
+

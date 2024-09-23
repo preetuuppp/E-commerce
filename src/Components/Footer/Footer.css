@@ -1,0 +1,12 @@
+.foot-two {
+    border-top: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+}
+.foot-two > a:hover {
+    text-decoration: underline;
+}
